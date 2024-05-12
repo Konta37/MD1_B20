@@ -1,0 +1,20 @@
+.show-nofi{
+    display: grid;
+    grid-template-columns: 90% auto;
+    position: absolute;
+    bottom: 50%;
+    width: 100vw;
+    padding: 20px 0;
+    background-color: bisque;
+    opacity: 0;
+}
+.nofi-content{
+    width: 100%;
+    text-align: center;
+}
+#icon-hide{
+    cursor: pointer;
+    background-color: bisque;
+    border: none;
+
+}
